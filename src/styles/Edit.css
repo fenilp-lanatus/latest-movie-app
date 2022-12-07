@@ -1,0 +1,78 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  /* padding: 2px; */
+  font-size: 32px;
+  border: solid black;
+}
+
+th {
+  background-color: rgb(117, 201, 250);
+  text-align: center;
+}
+
+td {
+  background-color: rgb(205, 235, 253);
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 20px;
+}
+.in {
+  /* border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden; */
+  /* background-color: rgb(205, 235, 253); */
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  /* pointer-events: none; */
+}
+.ins {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  background-color: rgb(205, 235, 253);
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center; /* pointer-events: none;  */
+}
+.bttns {
+  border: none;
+  border-radius: 2rem;
+  padding: 0.6rem 0.6rem;
+  background-color: #eb5d1e;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  font: medium;
+}
+.size {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+}
